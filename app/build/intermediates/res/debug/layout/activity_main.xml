@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:background="#000000" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/viewPagerIndicator"
+        android:padding="10dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+
+    <!--
+    <ScrollView 
+    	android:id="@+id/scrollViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+    	
+		    <fragment
+		        android:id="@+id/fragment_recorder"
+		        android:name="com.airbrush.airbrushrecorder.fragments.FragmentRecorder"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="5dip"
+		        android:layout_weight="1"
+		        tools:layout="@layout/fragment_recorder" />
+		    
+		    <fragment
+		        android:id="@+id/fragment_flight_browser"
+		        android:name="com.airbrush.airbrushrecorder.fragments.FragmentFlightBrowser"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="5dip"
+		        android:layout_weight="1"
+		        tools:layout="@layout/fragment_flight_browser" />
+		    
+		    <fragment
+		        android:id="@+id/fragment_account_data"
+		        android:name="com.airbrush.airbrushrecorder.fragments.FragmentAccountData"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="5dip"
+		        android:layout_weight="1"
+		        tools:layout="@layout/fragment_account_data" />
+	    
+	    </LinearLayout>
+	    
+   </ScrollView>
+   -->
+    
+</LinearLayout><!-- From: file:/C:/Users/Manuel/Projects/Android/AirbrushRecorder/app/src/main/res/layout/activity_main.xml -->

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AirbrushRecorder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_start_logging">Record Flight</string>
+    <string name="button_stop_logging">Stop</string>
+    <string name="button_back_to_main">Back</string>
+    <string name="button_view_flight">View Flights</string>
+    <string name="button_delete_flight">Delete Flight</string>
+    <string name="button_submit_flight">Submit</string>
+    <string name="button_edit_flight">Edit</string>
+    <string name="button_save_flight">Save Changes</string>
+    <string name="button_view_login">Switch Account</string>
+    <string name="button_set_login_data">Save Data</string>
+    <string name="button_create">Create</string>
+    <string name="button_create_account">Create Account</string>
+    
+    <string name="title_activity_path_log">PathLog</string>
+    <string name="title_activity_file_browser">FileBrowser</string>
+    <string name="title_activity_power_management">PowerManagement</string>
+    
+    <string name="edit_text_departure">Departure</string>
+    <string name="edit_text_destination">Destination</string>
+    <string name="edit_text_airplane_type">Airplane Type</string>
+    <string name="edit_text_user_name">Mail Address</string>
+    <string name="edit_text_password">Password</string>
+    <string name="edit_text_name_error_missing">Name required.</string>
+    <string name="edit_text_surname_error_missing">Surame required.</string>
+    <string name="edit_text_mail_error_missing">E-Mail address required.</string>
+    <string name="edit_text_mail_error_invalid">E-Mail address is invalid.</string>
+    <string name="edit_text_mail_error_taken">This address is already in use.</string>
+    <string name="edit_text_password_error_short">Password is too short.</string>
+    <string name="edit_text_name">Name</string>
+    <string name="edit_text_surname">Surname</string>
+    <string name="edit_text_email">E-Mail</string>
+    
+    <string name="log_date">date</string>
+	<string name="log_departure">departure</string>
+    <string name="log_destination">destination</string>
+    <string name="log_waypoints">waypoints</string>
+    <string name="log_airplane_type">airplaneType</string>
+    <string name="log_session_data">sessionData</string>
+    <string name="log_flight">flight</string>
+    <string name="log_activity">activity</string>
+    
+    <string name="log_path_log_handler">pathLogHandler</string>
+    
+    <string name="textView_logging_logging">Logging</string>
+    <string name="textView_logging_departure">Departure: </string>
+    <string name="textView_logging_arrival">Arrival: </string>
+    <string name="textView_logging_airplaneType">Airplane Type: </string>
+    <string name="textView_logging_na">nA</string>
+    <string name="textView_flight_data_default">No flight selected</string>
+    <string name="textView_flight_data_no_records">No flights recorded</string>
+    <string name="textView_account_data_title">Upload as:</string>
+    <string name="textView_account_data_default">No data set</string>
+    
+    <string name="textView_flightBrowser_date">Date: </string>
+    <string name="textView_flightBrowser_departure">Departure: </string>
+    <string name="textView_flightBrowser_destination">Destination: </string>
+    <string name="textView_flightBrowser_waypoints">Waypoints: </string>
+    
+    <string name="dialog_delete_flight">Delete Flight?</string>
+    <string name="dialog_set_login_data">Set Login Data</string>
+    <string name="dialog_create_account">Create new Account</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_keep">Keep</string>
+    <string name="dialog_save">Save</string>
+    <string name="dialog_create">Create</string>
+    <string name="dialog_set_login_data_message">Please enter mail address and password</string>
+    <string name="dialog_enter_account_data">Please enter your data and hit create</string>
+    <string name="dialog_create_account_response_positive">Created new Account!</string>
+    <string name="dialog_create_account_response_negative">Failed to create Account.</string>
+    <string name="dialog_create_account_response_email_taken">The E-Mail address is already taken.</string>
+    <string name="dialog_wifi_off">No Internet connection!</string>
+    <string name="dialog_wifi_off_message">Failed to connect to the server, please check whether you are connected to the internet.</string>
+    <string name="dialog_gps_off">Position not available</string>
+    <string name="dialog_gps_off_message">Location is unavailable. Please check whether the devices GPS is on.</string>
+    <string name="dialog_upload">Flight Upload</string>
+    <string name="dialog_upload_response_positive">Upload successful.</string>
+    <string name="dialog_upload_response_keep_local">Keep local data?</string>
+    <string name="dialog_upload_response_check_login_failed">Could not establish server connection.</string>
+    <string name="dialog_upload_response_check_login_data">Please check your login data.</string>
+    <string name="dialog_upload_response_negative">Upload failed.</string>
+    <string name="dialog_upload_response_flight_corrupted">Flight data is corrupted.</string>
+    <string name="dialog_enter_login_data_response_positive">Account data set.</string>
+    <string name="dialog_enter_login_data_response_negative">Failed to set account data. E-Mail or Password is incorrect.</string>
+    <string name="dialog_log_flight_response">Flight Recorder</string>
+    <string name="dialog_log_flight_response_no_waypoints">No waypoints recorded.</string>
+    <string name="dialog_log_flight_response_move_around">You may have to travel around further.</string>
+    
+    <string name="menu_change_account">Switch Account</string>
+    <string name="menu_create_account">Create Account</string>
+    
+    <string name="http_response_flight_upload_success"></string>
+    <string name="http_response_flight_upload_error_not_modified"></string>
+    <string name="http_response_flight_upload_error_bad_request"></string>
+    
+    <string name="data_view_create_account">viewCreateAccount</string>
+    <string name="data_view_change_account">viewChangeAccount</string>
+    <string name="data_email">email</string>
+    <string name="data_name">name</string>
+    <string name="data_surname">surname</string>
+    
+    <string name="fragment_recorder">Recorder</string>
+    <string name="fragment_flight_browser">Recorded Flights</string>
+    <string name="fragment_account_data">Account Settings</string>
+</resources>
